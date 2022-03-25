@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+
+:root{
+    background-color: rgb(31, 37, 61);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.top_left {
+    width: 1000px;
+    height: 65px;
+    margin: 60px auto;
+    background: rgb(57, 65, 102);
+    /*border-radius: 3px;*/
+}
+.top_left :before{
+    content: '';
+    display: block;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.panel{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+}
+
+.panel li{
+    float: left;
+}
+
+.panel li a{
+    color: rgb(247, 253, 255);
+    display: block;
+    height: 62px;
+    padding: 0 30px;
+    text-decoration:none;
+    line-height: 65px;
+}
+
+
+.panel li a:hover{ 
+    background: rgb(80, 88, 124);
+    border-bottom: 3px solid rgb(16, 168, 171);
+}
+
+
+/* rgb(31, 37, 61); фон 
+rgb(57, 65, 102); цвет меню 
+rgb(80, 88, 124); цвет подцветки кнопок 
+rgb(247, 253, 255); цвет текста 
+rgb(16, 168, 171) цвет нижней полоски */
+
+
+.block{
+    list-style: none;
+}
+
+.block .me{
+    color: rgb(247, 253, 255);
+    display: block;
+    height: 65px;
+    padding: 0 30px;
+    text-decoration:none;
+    line-height: 65px;
+    position:absolute;
+    left: 1260px;
+    top: 60px;
+}
+
+.Pic{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 1360px;
+    top: 75px;
+}
